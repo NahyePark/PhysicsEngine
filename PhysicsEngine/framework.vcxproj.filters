@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="emulator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="fbo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui-master\imgui.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui-master\imgui_demo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui-master\imgui_draw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui-master\backends\imgui_impl_glfw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui-master\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui-master\imgui_widgets.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="interact.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rply.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="shapes.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="simplexnoise.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gbuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BVH.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{2898028d-23ea-41b8-a5ff-d4c90d6297cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{24df83c7-1be6-4ca8-a657-6656c36d79a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{54a1f74a-1488-4ba7-98fd-75a0370abcd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Physics">
+      <UniqueIdentifier>{7b0451cd-398d-4122-b3c9-7be85688d77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{a2a1ebe6-49e1-42fa-9b96-305ecc3b87a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interact.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="rply.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="shapes.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="simplexnoise.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="emulator.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="fbo.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="gbuffer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Trans.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SAT.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GJKEPA.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollision.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\glfw\lib-vc2019\glfw3.lib">
+      <Filter>Source</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\defferedShading.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\defferedShading.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\fragmentShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\gBuffer.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\gBuffer.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\lightingPhong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\lightingPhong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\vertexShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\shadow.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\shadow.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\blur_horizon.comp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\blur_vertical.comp">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
